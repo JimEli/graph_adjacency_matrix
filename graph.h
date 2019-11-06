@@ -122,7 +122,7 @@ public:
 		std::cout << std::endl;
 	}
 
-	void bfs(int source) const
+	void bfs(std::size_t source) const
 	{
 		std::vector<bool> visited(numVertices, false);
 		std::queue<std::size_t> q; //std::vector<std::size_t> q;
